@@ -1,4 +1,4 @@
-package Bucles;
+package BuclesWhile;
 
 import java.util.Scanner;
 
@@ -11,10 +11,20 @@ public class num_negativo {
 		Scanner teclado = new Scanner (System.in);
 		int numero = 0;
 		
-		do{
+		/*do{
 			numero = teclado.nextInt();
-		}while(numero >= 0);
+			System.out.println("El primer numero es: " + numero);
+			
+		}while(numero >= 0);*/
 
+		 while(numero>=0){
+		 numero = teclado.nextInt();}
+		 
+		 System.out.println("Numero introducido: + numero");
+		 System.out.println("Numero negativo introducido :" + (numero<0));
+		
+		 
 	}
-
 }
+
+
