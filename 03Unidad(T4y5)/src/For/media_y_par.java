@@ -14,10 +14,13 @@ public class media_y_par {
 		double media;
 		int contador;
 		String sumaif = " ";
+		int numeros;
 		
-		System.out.println("Indica solo 5 numeros");
+		System.out.println("Cuantos numeros quieres?");
+		numeros=teclado.nextInt();
 		
-		for(contador=0; contador<5; contador++){
+		System.out.println("Indica los numeros");
+		for(contador=0; contador<numeros; contador++){
 		numero=teclado.nextInt();
 		suma = suma + numero;
 		
@@ -28,7 +31,7 @@ public class media_y_par {
 		
 		
 		media = suma / 5;
-		System.out.println("La media de los numeros introducidos es: " + media);
+		System.out.println("La media de los numeros pares introducidos es: " + media);
 		
 		System.out.print("los numeros introducidos son:" + sumaif + " ");
 		}

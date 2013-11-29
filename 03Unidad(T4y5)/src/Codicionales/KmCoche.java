@@ -11,18 +11,18 @@ public class KmCoche {
 		//Si quedan menos de 30 kilómetros mostrará un aviso de que hay que repostar porque estamos usando la reserva.
 		Scanner teclado = new Scanner (System.in);
 		
-		long tamañoDeposito;
-		long porcentajeLleno;
-		long consumoKm;
+		Double tamañoDeposito;
+		Double porcentajeLleno;
+		Double consumoKm;
 		
 		System.out.println("Indica el tamaño del deposito (en litros)");
-		tamañoDeposito = teclado.nextLong();
+		tamañoDeposito = teclado.nextDouble();
 		
 		System.out.println("Indica el porcentaje del deposito que esta lleno");
-		porcentajeLleno = teclado.nextLong();
+		porcentajeLleno = teclado.nextDouble();
 		
 		System.out.println("Indica el consumo a los 100 Kms");
-		consumoKm = teclado.nextLong();
+		consumoKm = teclado.nextDouble();
 		
 		tamañoDeposito = tamañoDeposito;
 		

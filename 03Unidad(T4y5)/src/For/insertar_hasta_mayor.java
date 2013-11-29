@@ -27,12 +27,19 @@ public class insertar_hasta_mayor {
 			
 			System.out.println("Indica otro segundo numero");
 			numero2 = teclado.nextInt();
+			
+			if (numero1 >= numero2){
+				System.out.println("\n\n El segundo numero que ser mayor que el primero");
+				System.out.println("");
+			}
+		
 		}
 		
 		
-		for(numero1=0 ; numero1 <= numero2 ;  numero1++ ){
+		for(; numero1 <= numero2 ;  numero1++ ){
 			
 			suma = suma + numero1; 
+			
 		}
 		System.out.println("resultados: " + suma);
 	}
